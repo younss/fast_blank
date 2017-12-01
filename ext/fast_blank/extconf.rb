@@ -1,2 +1,3 @@
 require 'mkmf'
-create_makefile 'fast_blank'
+dir_config('fast_blank')
+create_makefile ('fast_blank')
